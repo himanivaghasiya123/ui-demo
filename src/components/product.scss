@@ -1,0 +1,47 @@
+.products-sec {
+    .products-wrapper {
+        .products-block {
+            display: flex;
+
+            .filter-block {
+                width: 30%;
+            }
+
+            .product-block {
+                width: 70%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+
+            .product-info {
+                width: 31%;
+                .product-img{width: 100%;}
+                h3 {
+                    font-family: Simplon Norm;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 21.6px;
+                    text-align: left;
+                    color: #252020;
+                }
+
+                
+                .discription{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    p {
+                        font-family: Simplon Norm;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 16.8px;
+                        text-align: left;
+                        color: #888792;
+    
+                    }
+                }
+            }
+        }
+    }
+}
